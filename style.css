@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(0.0deg, #c7ef00 43.0%, #8332ac 67.0%);
+}
+
+.menu {
+    position: fixed;
+    display: flex;
+    
+    padding: 24px;
+}
+
+#menu {
+    background-color: #8332ac;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    position: fixed;
+    margin-top: 0px;
+    width: 100%;
+    height: 80px;
+}
+
+#contato {
+    font-size: 16px;
+}
+
+.item-menu:hover {
+    color: grey;
+}
+
+.img-menu {
+    height: 72px;
+}
+
+.item-menus {
+    display: flex;
+    gap: 30px;
+}
+
+.item-menu {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.sessoes {
+    margin-bottom: 48px;
+    border-top: 0.1px solid #ffffff;
+}
+
+.sessao1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px;
+    margin-bottom: 0px;
+}
+
+.sessao1-sobre {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.img-sobre {
+    height: 470px;
+}
+
+.sessao2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.sessao2-sep {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 48px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 12px;
+    color: #ffffff;
+    margin: 100px 100px 0px 100px;
+}
+
+.img {
+    height: 50px;
+}
+
+#img {
+    height: 50px;
+}
+
+.equipe {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    border-top: 0.1px solid #ffffff;
+    padding: 48px 0px 0px 48px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 12px;
+    color: #ffffff;
+    margin: 100px;
+}
+   
+
+.atividades {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    border-top: 0.1px solid #ffffff;
+    padding: 48px 0px 0px 48px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 12px;
+    color: #ffffff;
+    margin: 100px;
+}
+
+.sessao3-sep {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    border-top: 0.1px solid #ffffff;
+    padding-top: 48px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 12px;
+    color: #ffffff;
+    margin: 100px;
+}
+
+
+.box {
+    width: full-content;
+    height: 50px;
+    margin-bottom: 8px;
+}
+
+.box1 {
+    background-color: rgb(113, 12, 172);
+}
+
+
+.contato-form{
+    margin-left: 200px;
+    width: 591px;
+    min-height: 307px;
+    background: #FFFFFF;
+    border: 0.5px solid rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+  }
+  
+  .contato-form .elementos{
+    margin-left:43px;
+    margin-top:42px;
+    margin-bottom:42px;
+    /*border:1px red solid;*/
+    width: 506.4px;
+    min-height: 227px;
+    display:flex;
+    flex-direction:column;
+    align-items:left;
+    justify-content:space-between;
+  }
+  
+  .contato-form .elementos label{
+    color: #000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  
+  .contato-form .elementos input{
+    width: 496.2px;
+    height: 45.25px;
+    background: #F0F0F5;
+    border: none;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    padding-left:10px;
+  }
+  
+  .contato-form .elementos textarea{
+    width: 496.2px;
+    height: 45.25px;
+    background: #F0F0F5;
+    border: none;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    padding-left:10px;
+  }
+
+  .contato-form .elementos button{
+    width: 100px;
+    height: 45px;
+    background: #000000;
+    border:none;
+    border-radius: 8px;
+    color:#FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    cursor:pointer;
+  }
+
+  .rodape {
+    padding: 32px;
+    border-top: 0.1px solid #ffffff;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+
+}
+
+/**.equipe-texto{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+}
